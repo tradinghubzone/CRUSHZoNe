@@ -1,0 +1,28 @@
+# Deploy Guide - MY CRASH CASINO
+
+## Owner: Morgan - Line: 0116162159
+Backend: https://printemadollar-backend.onrender.com
+
+## GitHub Pages (Free - Live in 1 min)
+1. Repo -> Settings -> Pages
+2. Source: GitHub Actions
+3. Your site: https://YOURUSERNAME.github.io/my-crash-casino/
+
+## AWS S3 (Real S3 hosting)
+1. Create S3 bucket: my-crash-casino-0116
+2. Enable Static website hosting
+3. Upload index.html
+4. Bucket policy: Public Read
+5. Site: http://my-crash-casino-0116.s3-website-us-east-1.amazonaws.com
+
+## How You Profit
+- Max 5x capped, 65% crash below 1.8x
+- RTP 93%, House Edge 7%
+- Client deposits -> STK to your line 0116162159
+- House profit = Deposits + Losses - Wins
+- Withdraw house profit with PIN 0116 to M-Pesa
+
+## Files
+- index.html = Your casino (all 1 file)
+- .github/workflows/deploy.yml = Auto deploy
+- deploy.md = This guide
